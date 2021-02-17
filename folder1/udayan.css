@@ -1,0 +1,42 @@
+h1
+{
+    color:seagreen;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    text-indent: 20px;
+    border:  solid;
+
+}
+p
+{
+         color: black;
+         font-weight: bolder;
+         font-style: oblique;
+         text-transform: uppercase;
+         text-decoration: none;
+         text-align: center;
+         
+
+}
+h2
+{
+    color: blueviolet;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    text-indent: 20px;
+}
+
+
+a
+{
+    color: red;
+    text-transform: lowercase;
+}
+
+
+
+
