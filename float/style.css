@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    text-align: center;
+    background-color: powderblue;
+    padding: 65px;
+    font-size: 2rem;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 15px;
+    height: 500px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.column:nth-child(odd){
+    background-color: #95e1d3;
+}
+
+.column:nth-child(even){
+    background-color: #ff75a0;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    background-color: lavender;
+    padding: 50px;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .column {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px){
+    .column {
+        width: 100%;
+    }
+}
